@@ -1,0 +1,4 @@
+#Fri Oct 27 15:04:08 PKT 2023
+base.0=C\:\\Users\\Admin\\Downloads\\New folder (3)\\android-codelab-main\\android\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

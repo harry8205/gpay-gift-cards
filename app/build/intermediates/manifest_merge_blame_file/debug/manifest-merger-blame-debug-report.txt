@@ -1,0 +1,100 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.google.android.gms.samples.wallet"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\Admin\Downloads\New folder (3)\android-codelab-main\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Admin\Downloads\New folder (3)\android-codelab-main\android\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Admin\Downloads\New folder (3)\android-codelab-main\android\app\src\main\AndroidManifest.xml:5:5-29:19
+12        android:allowBackup="true"
+12-->C:\Users\Admin\Downloads\New folder (3)\android-codelab-main\android\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] C:\Users\Admin\.gradle\caches\transforms-3\6a19de105318aab1da00cfa3c60fb56e\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\Admin\Downloads\New folder (3)\android-codelab-main\android\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\Admin\Downloads\New folder (3)\android-codelab-main\android\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\Admin\Downloads\New folder (3)\android-codelab-main\android\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\Admin\Downloads\New folder (3)\android-codelab-main\android\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true" >
+20        <activity
+20-->C:\Users\Admin\Downloads\New folder (3)\android-codelab-main\android\app\src\main\AndroidManifest.xml:12:9-22:20
+21            android:name="com.google.android.gms.samples.wallet.activity.CheckoutActivity"
+21-->C:\Users\Admin\Downloads\New folder (3)\android-codelab-main\android\app\src\main\AndroidManifest.xml:13:13-54
+22            android:exported="true"
+22-->C:\Users\Admin\Downloads\New folder (3)\android-codelab-main\android\app\src\main\AndroidManifest.xml:17:13-36
+23            android:label="@string/store_name"
+23-->C:\Users\Admin\Downloads\New folder (3)\android-codelab-main\android\app\src\main\AndroidManifest.xml:14:13-47
+24            android:screenOrientation="portrait"
+24-->C:\Users\Admin\Downloads\New folder (3)\android-codelab-main\android\app\src\main\AndroidManifest.xml:15:13-49
+25            android:theme="@style/Theme.AppCompat" >
+25-->C:\Users\Admin\Downloads\New folder (3)\android-codelab-main\android\app\src\main\AndroidManifest.xml:16:13-51
+26            <intent-filter>
+26-->C:\Users\Admin\Downloads\New folder (3)\android-codelab-main\android\app\src\main\AndroidManifest.xml:18:13-21:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->C:\Users\Admin\Downloads\New folder (3)\android-codelab-main\android\app\src\main\AndroidManifest.xml:19:17-69
+27-->C:\Users\Admin\Downloads\New folder (3)\android-codelab-main\android\app\src\main\AndroidManifest.xml:19:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->C:\Users\Admin\Downloads\New folder (3)\android-codelab-main\android\app\src\main\AndroidManifest.xml:20:17-77
+29-->C:\Users\Admin\Downloads\New folder (3)\android-codelab-main\android\app\src\main\AndroidManifest.xml:20:27-74
+30            </intent-filter>
+31        </activity>
+32
+33        <!-- This element is required in order to use the PaymentsClient -->
+34        <meta-data
+34-->C:\Users\Admin\Downloads\New folder (3)\android-codelab-main\android\app\src\main\AndroidManifest.xml:25:9-27:36
+35            android:name="com.google.android.gms.wallet.api.enabled"
+35-->C:\Users\Admin\Downloads\New folder (3)\android-codelab-main\android\app\src\main\AndroidManifest.xml:26:13-69
+36            android:value="true" />
+36-->C:\Users\Admin\Downloads\New folder (3)\android-codelab-main\android\app\src\main\AndroidManifest.xml:27:13-33
+37
+38        <activity
+38-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\.gradle\caches\transforms-3\49e1fdcc542bde6869659be3a6e1ba42\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+39            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+39-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\.gradle\caches\transforms-3\49e1fdcc542bde6869659be3a6e1ba42\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+40            android:exported="false"
+40-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\.gradle\caches\transforms-3\49e1fdcc542bde6869659be3a6e1ba42\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+41            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+41-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\.gradle\caches\transforms-3\49e1fdcc542bde6869659be3a6e1ba42\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+42
+43        <meta-data
+43-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\5bc03a3cae9f2de30289c195be9dc8a3\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+44            android:name="com.google.android.gms.version"
+44-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\5bc03a3cae9f2de30289c195be9dc8a3\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+45            android:value="@integer/google_play_services_version" />
+45-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Admin\.gradle\caches\transforms-3\5bc03a3cae9f2de30289c195be9dc8a3\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+46
+47        <provider
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\c80ce55a4995639d4ed0d5a763e84b4a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+48            android:name="androidx.startup.InitializationProvider"
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\c80ce55a4995639d4ed0d5a763e84b4a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+49            android:authorities="com.google.android.gms.samples.wallet.androidx-startup"
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\c80ce55a4995639d4ed0d5a763e84b4a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+50            android:exported="false" >
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\c80ce55a4995639d4ed0d5a763e84b4a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+51            <meta-data
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\c80ce55a4995639d4ed0d5a763e84b4a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+52                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\c80ce55a4995639d4ed0d5a763e84b4a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+53                android:value="androidx.startup" />
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Admin\.gradle\caches\transforms-3\c80ce55a4995639d4ed0d5a763e84b4a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+54            <meta-data
+54-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Admin\.gradle\caches\transforms-3\eb02fa3de8df92428b4fead2b13ac84f\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+55                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+55-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Admin\.gradle\caches\transforms-3\eb02fa3de8df92428b4fead2b13ac84f\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+56                android:value="androidx.startup" />
+56-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Admin\.gradle\caches\transforms-3\eb02fa3de8df92428b4fead2b13ac84f\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+57        </provider>
+58    </application>
+59
+60</manifest>

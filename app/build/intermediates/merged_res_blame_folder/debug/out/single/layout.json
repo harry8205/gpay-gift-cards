@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.google.android.gms.samples.wallet.app-mergeDebugResources-29:/layout/add_to_google_wallet_button.xml",
+        "source": "com.google.android.gms.samples.wallet.app-main-32:/layout/add_to_google_wallet_button.xml"
+    },
+    {
+        "merged": "com.google.android.gms.samples.wallet.app-mergeDebugResources-29:/layout/activity_checkout.xml",
+        "source": "com.google.android.gms.samples.wallet.app-main-32:/layout/activity_checkout.xml"
+    }
+]
